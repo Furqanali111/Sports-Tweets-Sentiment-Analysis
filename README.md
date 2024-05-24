@@ -6,24 +6,24 @@ This repository contains Python code for performing sentiment analysis on a data
 
 1) Data Preprocessing: The repository preprocesses the sports-related tweet dataset by performing the following tasks:
 
-  Tokenization: Breaking down the text into individual words or tokens.
-  Lowercasing: Converting all text to lowercase to ensure consistency.
-  Punctuation Removal: Removing punctuation marks from the text.
-  Stopwords Removal: Eliminating common words (stopwords) that do not contribute much to the meaning of the text.
-  Stemming: Reducing words to their root form to normalize the text.
+        Tokenization: Breaking down the text into individual words or tokens.
+        Lowercasing: Converting all text to lowercase to ensure consistency.
+        Punctuation Removal: Removing punctuation marks from the text.
+        Stopwords Removal: Eliminating common words (stopwords) that do not contribute much to the meaning of the text.
+        Stemming: Reducing words to their root form to normalize the text.
 
 2) Feature Extraction:
 
-  Bag of Words (BoW): A technique that represents text data as a matrix of word counts.
-  TF-IDF (Term Frequency-Inverse Document Frequency): A method to reflect the importance of a word in a document relative to a collection of documents.
-  Word2Vec: A word embedding technique that represents words in a continuous vector space.
+        Bag of Words (BoW): A technique that represents text data as a matrix of word counts.
+        TF-IDF (Term Frequency-Inverse Document Frequency): A method to reflect the importance of a word in a document relative to a collection of documents.
+        Word2Vec: A word embedding technique that represents words in a continuous vector space.
 
 3) Text Summarization:
 
-  Utilizes word frequency analysis and sentence scoring to generate summaries of the input text.
+        Utilizes word frequency analysis and sentence scoring to generate summaries of the input text.
 4) Sentiment Analysis:
 
-  Trains a Random Forest Classifier using TF-IDF and Bag of Words features to predict the sentiment (positive/negative) of sports-related tweets.
+        Trains a Random Forest Classifier using TF-IDF and Bag of Words features to predict the sentiment (positive/negative) of sports-related tweets.
 
 # Explanation:
 
